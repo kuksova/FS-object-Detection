@@ -1,4 +1,4 @@
-# SSD-object-Detection
+# FS-object-Detection
 
 Goal: The goal is to leverage an existing object detector model to automatically detect new class of objects, an application of transfer learning.
 
