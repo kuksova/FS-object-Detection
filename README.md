@@ -8,8 +8,9 @@ Performed in Google Colab Notebook using GPU.
 10 labeled images of the new class.
 
 ### Model baseline + finetuning: 
-The model is an SSD (single shot multibox detector) object detetion with Resnet50 backbone with feature pyramid network.
-Input Image size 640x640. 
+Few shot object detection model - fasterrcnn_resnet50_fpn_v2. (https://pytorch.org/vision/main/models/faster_rcnn.html)
+Faster R-CNN model with a ResNet-50-FPN backbone.
+Input Image size 480x640. 
 
 Fined tune the WeightSharedConvolutionalBoxPredictor layer. 
 SGD optimizer. 
